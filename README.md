@@ -8,7 +8,7 @@ Clone this repository and execute `npm install` in your terminal. Make sure you 
 
 ### How to run the app?
 
-While inside the project's root folder, execute 'npm start'.
+While inside the project's root folder, execute `npm start`.
 
 ## Contributing
 

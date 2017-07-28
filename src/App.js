@@ -28,12 +28,12 @@ class BooksApp extends React.Component {
 
     return (
       <div className="app">
-        <Route exact path="/" render={() => (
+        <Route exact path="/" component={
           <HomePage books={books} onUpdateBook={this.updateBook.bind(this)} />
-        )} />
-        <Route exact path="/search" render={() => (
+        } />
+        <Route exact path="/search" component={
           <SearchPage userBooks={books} onUpdateBook={this.updateBook.bind(this)} />
-        )} />
+        } />
       </div>
     )
   }
